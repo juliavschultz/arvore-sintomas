@@ -14,7 +14,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.preprocessing import OrdinalEncoder
 from sklearn import metrics
 
-dataset = pd.read_csv('/content/drive/MyDrive/docencia IA/dadosCOVIDrs/completo/dados26abril22.csv',sep=';')
+dataset = pd.read_csv('dados26abril22.csv',sep=';')
 nomes_classes = ['Recuperação','Risco de óbito']
 
 
